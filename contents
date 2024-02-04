@@ -1,0 +1,93 @@
+ ## Exercise: 501
+ 
+ You may know the popular darts game called 501. Players start with a score of 501, and have to work down to zero. Here are the rules:
+ 
+ - Each player plays a “round” where they throw three darts at a board.
+ - Each throw can score between 1 and 20 points, which may be doubled or tripled depending where it hits on the board.
+ - It is also possible to score 25 for the outer bulls-eye or 50 for the inner bulls-eye.
+ 
+ House rule: At the end of three rounds, whoever is closest to zero without going below zero is the winner.
+ 
+ - callout(Exercise): Imagine you’re a game shark. You want to fool people into thinking you’re terrible at this game, but then come back and beat them in one swoop at the end. Model your game progress using variables.\
+ \
+ Start with a variable set to `501` to hold your overall score.\
+ Create another variable set to `0` to hold the score for each round.\
+ For each throw, update the value of the round score by adding points from the throw.\
+ At the end of each round, calculate your current overall score by subtracting the round score from it. Assign the new value to your overall score, and re-set the round score to zero.\
+ \
+ How slowly can you “improve” your performance without arousing suspicion? \
+ \
+ After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
+ */
+var overallScore = 501
+var roundScore = 0
+
+// Throw 1
+roundScore = roundScore + 10
+roundScore += 10
+roundScore += 0
+roundScore = overallScore - roundScore
+roundScore = 0
+print("Dont worry Jacki you will do better next time")
+
+// Throw 2
+roundScore = roundScore + 30
+roundScore += 0
+roundScore += 4
+roundScore = overallScore - roundScore
+roundScore = 0
+print("I got this in the bag")
+// Throw 3
+roundScore = roundScore + 40
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("Sweetness")
+// Throw 4
+roundScore = roundScore + 50
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 5
+roundScore = roundScore + 60
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 6
+roundScore = roundScore + 60
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 7
+roundScore = roundScore + 60
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 8
+roundScore = roundScore + 60
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 9
+roundScore = roundScore + 90
+roundScore += 0
+roundScore += 10
+roundScore = overallScore - roundScore
+roundScore = 0
+print("")
+// Throw 10
+
+
+
+/*:
